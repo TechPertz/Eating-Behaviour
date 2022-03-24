@@ -5,4 +5,4 @@
 ![ScreenShot](/screenshots/2.png)
 
 # Priniting of Mail in Termianl
-![ScreenShot](/screenshots/3.png)
+![ScreenShot](/screenshots/4.png)
