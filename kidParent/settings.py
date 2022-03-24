@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users',
-    'data'
+    'data',
+    'mailer.apps.MailerConfig'
 ]
 
 MIDDLEWARE = [
