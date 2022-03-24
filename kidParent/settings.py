@@ -130,6 +130,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 DEFAULT_FROM_EMAIL = 'test@test.com'
 
+CSRF_TRUSTED_ORIGINS = ["https://kidparent.herokuapp.com/"]
+
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
