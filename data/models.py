@@ -9,3 +9,4 @@ class Image(models.Model):
     image_url = models.URLField(max_length=200, default=None)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now = True)
+    groups = models.CharField(max_length=255, choices=[('Veg','Veg',), ('Fruit','Fruit'), ('Grain','Grain'), ('Protein','Protein'), ('Dairy','Dairy'), ('Confectionary','Confectionary'), ('Unknown','Unknown')], default='Unknown')
